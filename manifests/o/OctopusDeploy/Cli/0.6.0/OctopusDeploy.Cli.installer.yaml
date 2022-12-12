@@ -1,0 +1,14 @@
+PackageIdentifier: OctopusDeploy.Cli
+PackageVersion: 0.6.0
+MinimumOSVersion: 10.0.0.0 # TODO can we work on windows 8.1 and win7 as well?
+InstallerType: wix
+Scope: machine
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/OctopusDeploy/cli/releases/download/v0.6.0/octopus_0.6.0_windows_amd64.msi
+  InstallerSha256: 3D9EEBE73200656D750D48FF2B144C503C8C857372DABCE1F8DEA93E3CC36A06
+  ProductCode: '{09D0B3A7-2147-4EED-8296-F65646D9CBE2}'
+  # TODO an installer for arm64 windows
+ManifestType: installer
+ManifestVersion: 1.2.0

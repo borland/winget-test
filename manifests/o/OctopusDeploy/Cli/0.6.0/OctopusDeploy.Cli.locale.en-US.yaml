@@ -1,0 +1,33 @@
+PackageIdentifier: OctopusDeploy.Cli
+PackageVersion: 0.6.0
+PackageLocale: en-US
+Publisher: Octopus Deploy Pty. Ltd.
+PublisherUrl: https://octopus.com/
+# PublisherSupportUrl: 
+# PrivacyUrl: 
+Author: Octopus Deploy Pty. Ltd.
+PackageName: Octopus Deploy Cli
+PackageUrl: https://github.com/OctopusDeploy/cli
+License: Copyright (c) 2022 Octopus Deploy Pty. Ltd.
+LicenseUrl: https://octopus.com/legal/customer-agreement
+# Copyright: 
+# CopyrightUrl: 
+ShortDescription: Command Line Interface for Octopus Deploy
+# Description: 
+Moniker: octopus-cli
+Tags:
+- build
+- deploy
+- devops
+- dotnet
+- octopus
+- cli
+- golang
+# Agreements: 
+# ReleaseNotes: 
+# ReleaseNotesUrl: 
+# PurchaseUrl: 
+# InstallationNotes: 
+# Documentations: 
+ManifestType: defaultLocale
+ManifestVersion: 1.2.0
